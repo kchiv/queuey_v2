@@ -1,4 +1,5 @@
 from django.db import models
+from statuses.models import Status, Priority
 
 # Create your models here.
 
@@ -10,4 +11,7 @@ class Movie(models.Model):
     poster_url = models.URLField()
     release_date = models.DateField()
     rating = models.FloatField()
-    # status =
+    status = models.ForeignKey(Status, on_delete=models.SET_NULL, null=True)
+    watched_date = models.DateField()
+    priority = models.ForeignKey(Priority, on_delete=models.SET_NULL, null=True)
+    notes = models.TextField()

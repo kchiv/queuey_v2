@@ -1,0 +1,23 @@
+[
+  {
+    "model": "statuses.priority",
+    "pk": 1,
+    "fields": {
+      "priority": "High"
+    }
+  },
+  {
+    "model": "statuses.priority",
+    "pk": 2,
+    "fields": {
+      "priority": "Medium"
+    }
+  },
+  {
+    "model": "statuses.priority",
+    "pk": 3,
+    "fields": {
+      "priority": "Low"
+    }
+  }
+]
