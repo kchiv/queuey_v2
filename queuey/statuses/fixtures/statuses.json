@@ -1,0 +1,23 @@
+[
+  {
+    "model": "statuses.status",
+    "pk": 1,
+    "fields": {
+      "status": "Not Watched"
+    }
+  },
+  {
+    "model": "statuses.status",
+    "pk": 2,
+    "fields": {
+      "status": "Watching"
+    }
+  },
+  {
+    "model": "statuses.status",
+    "pk": 3,
+    "fields": {
+      "status": "Watched"
+    }
+  }
+]
