@@ -42,6 +42,7 @@ class MovieUser(models.Model):
     priority = models.ForeignKey(Priority, on_delete=models.SET_NULL, null=True, blank=True)
     rating = models.FloatField(null=True, blank=True)
     notes = models.TextField(null=True, blank=True)
+    leaving_date = models.DateField(null=True, blank=True)
 
     def __str__(self):
         return self.user, self.movie
