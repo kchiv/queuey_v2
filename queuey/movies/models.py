@@ -1,5 +1,6 @@
 from django.db import models
 from genres.models import Genre
+from platforms.models import Platform
 from statuses.models import Status, Priority
 
 # Create your models here.
@@ -28,6 +29,7 @@ class Movie(models.Model):
     vote_count = models.IntegerField(null=True, blank=True)
     genres = models.ManyToManyField(Genre, blank=True)
     collection = models.ManyToManyField(Collection, blank=True)
+    platforms = models.ManyToManyField(Platform, blank=True)
     status = models.ForeignKey(Status, on_delete=models.SET_NULL, null=True, blank=True)
     watched_date = models.DateField(null=True, blank=True)
     priority = models.ForeignKey(Priority, on_delete=models.SET_NULL, null=True, blank=True)

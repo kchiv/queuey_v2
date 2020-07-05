@@ -1,0 +1,44 @@
+[
+  {
+    "model": "platforms.platform",
+    "pk": 1,
+    "fields": {
+      "name": "Netflix"
+    }
+  },
+  {
+    "model": "platforms.platform",
+    "pk": 2,
+    "fields": {
+      "name": "Hulu"
+    }
+  },
+  {
+    "model": "platforms.platform",
+    "pk": 3,
+    "fields": {
+      "name": "Disney+"
+    }
+  },
+  {
+    "model": "platforms.platform",
+    "pk": 4,
+    "fields": {
+      "name": "Apple TV+"
+    }
+  },
+  {
+    "model": "platforms.platform",
+    "pk": 5,
+    "fields": {
+      "name": "Amazon Prime Video"
+    }
+  },
+  {
+    "model": "platforms.platform",
+    "pk": 6,
+    "fields": {
+      "name": "HBO Max"
+    }
+  }
+]
