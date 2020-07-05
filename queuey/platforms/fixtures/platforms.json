@@ -40,5 +40,19 @@
     "fields": {
       "name": "HBO Max"
     }
+  },
+  {
+    "model": "platforms.platform",
+    "pk": 7,
+    "fields": {
+      "name": "iTunes Movies"
+    }
+  },
+  {
+    "model": "platforms.platform",
+    "pk": 8,
+    "fields": {
+      "name": "Xfinity Stream"
+    }
   }
 ]

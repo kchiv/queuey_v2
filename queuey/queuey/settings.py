@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'genres.apps.GenresConfig',
     'movies.apps.MoviesConfig',
     'platforms.apps.PlatformsConfig',
+    'shows.apps.ShowsConfig',
     'statuses.apps.StatusesConfig'
 ]
 
